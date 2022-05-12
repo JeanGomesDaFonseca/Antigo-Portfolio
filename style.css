@@ -411,7 +411,7 @@ header{
 .sessao-contato{
     width: 100%;
     height: 100vh;
-    background-color: #272727;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -432,7 +432,7 @@ header{
 
 .contato-right{
     width: 65%;
-    background-color: #eee;
+    background-color: rgb(233, 233, 233);
     padding: 1rem 3rem 3rem;
 }
 
