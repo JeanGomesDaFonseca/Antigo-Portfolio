@@ -162,17 +162,20 @@
               <div class="contato-left"></div>
               <div class="contato-right">
                 <h1>Contato</h1>
-                <form >
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="b3ce744b-23ce-4e1d-9d33-2a46b115897d">
+                    <input type="hidden" name="redirectTo" value="https://jeangomesdafonseca.github.io/Novo-Web-Site/">
+
                     <div class="input-group">
-                        <input type="text" class="field" id="nome">
+                        <input type="text" class="field" id="nome" name="name">
                         <label for="nome" class="field-label">Nome</label>
                     </div>
                     <div class="input-group">
-                        <input type="text" class="field" id="email">
+                        <input type="text" class="field" id="email" name="email">
                         <label for="email" class="field-label">E-mail</label>
                     </div>
                     <div class="input-group">
-                        <textarea class="field" id="mensagem"></textarea>
+                        <textarea name="message" class="field" id="mensagem"></textarea>
                         <label for="mesagem"class="field-label">Mensagem</label>
                     </div>
                     <button type="submit" class="btn btn-submit">Enviar</button>
