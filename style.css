@@ -424,7 +424,7 @@ header{
 
 .contato-wrapper{
     width: 60%;
-    height: 30rem;
+    height: 40rem;
     display: flex;
     box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0, 0.5);
 }
@@ -468,9 +468,9 @@ header{
     font-size: 1.5rem;
     font-family: var(--font-segundary);
     border-bottom: 2px dashed #636363;
-    height: 3rem;
+    height: 2rem;
     outline: none;
-    margin: 1rem 0;
+    margin: 3rem 0;
 }
 
 .input-group textarea{
