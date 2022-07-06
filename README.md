@@ -1,2 +1,2 @@
 # Novo-Web-Site
-Portfólio do Meu novo Site
+Portfólio feito para demonstrar meus conhecimentos com HTML e CSS.
